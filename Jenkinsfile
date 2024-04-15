@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	environment {
-		VERSION = '2.0.2'
+		VERSION = '2.0.3'
 		DOCKERHUB_CREDENTIALS = credentials('docker-mprawl-credentials')
 	}
 	stages {
